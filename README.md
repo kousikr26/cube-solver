@@ -18,7 +18,7 @@ The NEMA-17 stepper motors are controlled by motor drivers on a RAMPS 1.4 board 
 - kociemba (https://github.com/muodov/kociemba)
 - numpy
 
-## USAGE
+## Usage
 Befor running calibrate the HSV values in final_cube_solver.py by finding HSV values for each color of your cube in different lighting conditions using cube_state_finder.py in tests folder
 After correct color is being recognised upload final.ino to the arduino mega attach the RAMPS 1.4 and stepper motors according to datasheet
 
