@@ -1,4 +1,4 @@
-### cube-solver
+# cube-solver
 **A Rubik's cube solving bot using computer vision**
 
 The Rubik’s cube when placed in front of the webcam is captured and cropped.
@@ -10,7 +10,7 @@ The colours are stored in a 3D array and processed to a format required by the k
 The solution string is passed to an Arduino via serial port using pyserial which rotates the corresponding stepper motors
 
 The NEMA-17 stepper motors are controlled by motor drivers on a RAMPS 1.4 board attached to an Arduino MEGA microcontroller board.
-##Dependencies and Requirements
+## Dependencies and Requirements
 - Python 3.7
 - Arduino IDE
 - OpenCV
@@ -18,7 +18,7 @@ The NEMA-17 stepper motors are controlled by motor drivers on a RAMPS 1.4 board 
 - kociemba (https://github.com/muodov/kociemba)
 - numpy
 
-##USAGE
+## USAGE
 Befor running calibrate the HSV values in final_cube_solver.py by finding HSV values for each color of your cube in different lighting conditions using cube_state_finder.py in tests folder
 After correct color is being recognised upload final.ino to the arduino mega attach the RAMPS 1.4 and stepper motors according to datasheet
 
