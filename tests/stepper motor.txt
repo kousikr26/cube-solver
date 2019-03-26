@@ -1,0 +1,2 @@
+
+find max point of torque and speed
