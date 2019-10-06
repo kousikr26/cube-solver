@@ -25,7 +25,7 @@ The NEMA-17 stepper motors are controlled by motor drivers on a RAMPS 1.4 board 
 - Run final_cube_solver.py and scan each face in an orientation as provided in https://github.com/muodov/kociemba
 - The program should output around 100 moves after replacing the up face moves
 - These moves will automatically be sent to the arduino by pyserial
-
+- Kmeans color classification is in kmeans.py and is not integrated with final_cube_solver.py
 ## Files
 - final_cube_solver is the main file including all functions from scanning cube to writing to arduino
 - scrambleunscramble.py is for demonstration purposes and just scrambles and reverses it.
