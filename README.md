@@ -1,5 +1,5 @@
-# cube-solver
-**A Rubik's cube solving bot using computer vision**
+# cube-solver 
+**A Rubik's cube solving bot using computer vision** [(Video)](https://drive.google.com/file/d/1Ai2gsshSgDxANHX0ggLj5ml3GZyzHdWl/view)
 
 The Rubik’s cube when placed in front of the webcam is captured and cropped.
 
@@ -32,3 +32,7 @@ The NEMA-17 stepper motors are controlled by motor drivers on a RAMPS 1.4 board 
 - rubikscube_implementation.py is not used anywhere and just applies the transformations corresponding to an algorithm and returns the new cube state
 - pyserialtest.py is for testing purposes and directly writes some moves to the arduino and moves the steppers
 - tests folder contains various attempts and fails at automatic cube detection 
+### Made by
+- [Kousik Rajesh](https://github.com/kousikr26)
+- [Abdul Ahad](https://github.com/yoimABD)
+- [Abhilash Reddy](https://github.com/abhilashreddys)
